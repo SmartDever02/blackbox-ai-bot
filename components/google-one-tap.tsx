@@ -19,6 +19,8 @@ const GoogleOneTap = () => {
             redirect: false
           })
         },
+        auto_select: true, // optional
+        cancel_on_tap_outside: false, // optional
         prompt_parent_id: 'one-tap-popup',
         itp_support: true
       })
