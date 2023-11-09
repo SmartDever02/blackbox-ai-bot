@@ -20,7 +20,7 @@ const GoogleOneTap = () => {
           })
         },
         auto_select: true, // optional
-        cancel_on_tap_outside: false, // optional
+        cancel_on_tap_outside: true, // optional
         prompt_parent_id: 'one-tap-popup',
         itp_support: true
       })
